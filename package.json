@@ -1,0 +1,20 @@
+{
+  "name": "listener-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "listener.js",
+  "scripts": {
+    "start": "node listener.js",
+    "dev": "nodemon listener.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "mongoose": "^7.4.5",
+    "socket.io": "^4.7.2"
+  }
+}
