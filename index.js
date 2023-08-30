@@ -3,7 +3,7 @@ const express = require('express');
 const http = require('http');
 const socketIo = require('socket.io');
 const path = require('path')
-
+const emmiter = require('./emitter');
 const db = require('./configs/db');
 const DataModel = require('./models/dataSchema');
 
