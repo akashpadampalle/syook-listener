@@ -25,7 +25,7 @@ function decryptMessage(encryptedMessage, key) {
 }
 
 // Serve your frontend
-app.use(express.static(path.join(__dirname, 'dist'))); // Replace 'public' with your frontend's build directory
+app.use(express.static(path.join(__dirname, 'public'))); // Replace 'public' with your frontend's build directory
 
 io.on('connection', (socket) => {
   console.log('Emitter connected.');

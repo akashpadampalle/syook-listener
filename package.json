@@ -4,8 +4,8 @@
   "description": "",
   "main": "listener.js",
   "scripts": {
-    "start": "node listener.js",
-    "dev": "nodemon listener.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
